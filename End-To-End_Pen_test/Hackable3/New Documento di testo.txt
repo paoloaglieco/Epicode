@@ -1,0 +1,23 @@
+1 indizio please jubiscluedo don't forget to activate the port knocking when exiting your section, and tell the boss not to forget to approve the .jpg file
+----------------------
+Da dirbuster sono arrivato ad una pagina di login che semplicemente premendo invio mi reindirizza alla login php che inspezionando reindirizza all'immagine 3.jpg
+----------------------
+dalla path /config 1.txt
+testo del file: 
+
+MTAwMDA=
+base64 10000
+-----------------------
+patch css
+file 2.txt
+codice interpretato in brainfuck
+4444
+----------------------------
+di sicuro la porta 3 è nascosta nell'immagine utilizzando il watermark, utilizzare steghide
+porta 65535
+
+soluzione trovata 
+dalla pagina dencode.com
+decodifica i caratteri 
+
+googlando sono arrivato alla conclusione che le porte devono appunto essere bussate ovvero se si bussano le porte con una derminata sequenza di un determinato target in questo caso 192.168.198.6 si apre la porta con servizio 

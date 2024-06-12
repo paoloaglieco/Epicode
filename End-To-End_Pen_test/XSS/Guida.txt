@@ -1,0 +1,10 @@
+XSS STORED ATTACK 
+
+TARGET
+DVWA/XSS_STORED
+
+nella pagina di html di xss stored di dvwa il programmatore ha dimenticato di sanificare l'input dei commenti quindi possiamo inserire un script in java che verrà allegato al file html della pagina aprendo uno scenario per un attacco dalle immagini allegate nella cartella xss si nota che l'attaccante in questo caso ha utilizzato 
+uno script che crea una immagine con sorgente il suo indirizzo ip e quindi la vittima una volta che carichera la pagina ricaricherà la pagina html con tutti gli elementi nella pagina e quindi farà anche la richiesta dell'immagine che che invece di restituire l'immagine invierà i suoi cookie all'attaccante.
+
+per modificare la porta mettere nell'indirizzo ip:5555 e metterci in ascolto sulla 5555 con netcat con il comando:nc -nlvp 5555
+che accettera tutto quello che arriverà alla suddetta porta.
